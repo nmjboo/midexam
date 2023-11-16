@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>109450031高英傑</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+<script >
+    function add(){
+    var money =0;
+    if (RadioGroup1_0.checked==true) 
+      money +=0;
+    else if(RadioGroup1_1.checked==true) 
+      money +=0;
+    else if(RadioGroup1_2.checked==true) 
+      money +=50;  
+    else if(RadioGroup1_3.checked==true) 
+      money +=0;  
+    
+    //注意，radiogroup1_0的外面還有form1，所以要先呼叫form1
+    if (RadioGroup2_0.checked==true) 
+      money +=0;
+    else if(RadioGroup2_1.checked==true) 
+      money +=50;
+    else if(RadioGroup2_2.checked==true) 
+      money +=0; 
+    else if(RadioGroup2_3.checked==true) 
+      money +=0;     
+    //輸出
+    alert("總分"	+ money );
+      
+      }
+    </script>
+</head>
+
+<body>
+  <div id="main">	
+    <div id="site_content">  
+	  <div id="menubar">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">首頁</a></li>
+          <li><a href="a1.html">第一題</a></li>
+          <li><a href="a2.html">第二題</a></li>
+          <li><a href="a3.html">第三題</a></li>
+          <li><a href="a4.html">第四題</a></li>
+          <li><a href="a5.html">第五題</a></li>
+        </ul>
+	  </div><!--close menubar-->
+      <div id="header">  
+        <h1>109450031高英傑</h1>	
+	    <h2>期中考</h2>
+      </div><!--close header-->	
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt="" />
+            <img src="images/slide2.jpg" alt="" />
+            <img src="images/slide3.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider-wrapper-->
+	  </div><!--close banner_image-->		  
+      <div id="content">
+        <div class="content_item">
+          <h1 class="s3">選擇題</h1>
+          <hr>
+          <div class="s1">1. 到2009年的最新統計，全球人口總數為多少人？（50分）</div>
+          <form id="form1" name="form1" method="post" action="">
+            <p class="s3">
+                <input type="radio" name="RadioGroup1" value="1" id="RadioGroup1_0" />
+                38億人</label>
+              <br />
+              <label>
+                <input type="radio" name="RadioGroup1" value="1" id="RadioGroup1_1"  />
+                48億人</label>
+              <br />
+              <label>
+                <input type="radio" name="RadioGroup1" value="1" id="RadioGroup1_2"  />
+                68億人</label>
+                <br />
+                <label>
+                <input type="radio" name="RadioGroup1" value="1" id="RadioGroup1_3"  />
+                88億人</label>
+          <div class="s1">2. 到2009年的最新統計，台灣人口總數為多少人？（50分）</div>
+          <form id="form2" name="form2" method="post" action="">
+            <p class="s3">
+                <input type="radio" name="RadioGroup2" value="1" id="RadioGroup2_0" />
+                2000萬人</label>
+              <br />
+              <label>
+                <input type="radio" name="RadioGroup2" value="1" id="RadioGroup2_1"  />
+                2300萬人</label>
+              <br />
+              <label>
+                <input type="radio" name="RadioGroup2" value="1" id="RadioGroup2_2"  />
+                2500萬人</label>
+                <br />
+                <label>
+                  <input type="radio" name="RadioGroup2" value="1" id="RadioGroup2_3"  />
+                  2700萬人</label>
+          <br />
+            <p>
+           <input id="btn" type="button" onClick="add()" value="計算總分"  class="s2"/>
+              </p>
+       </div><!--close content_item-->	
+	      
+		<div class="sidebar_container">   		  
+		  <div class="sidebar">
+            <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->     		
+		  <div class="sidebar">
+            <div class="sidebar_item">
+              <h2>Latest Blog</h2>
+		  	  <h4>April 2012</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		        <a href="#">Read more</a>
+            </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->  
+		  <div class="sidebar">
+            <div class="sidebar_item">
+              <h2>Latest Blog</h2>
+			  <h4>April 2012</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		        <a href="#">Read more</a>
+            </div><!--close sidebar_item--> 
+          </div><!--close sidebar-->  
+        </div><!--close sidebar_container-->	
+       <br style="clear:both;" />
+      </div><!--close content-->	
+    </div><!--close site_content-->	
+    <div id="footer">  
+      <p>版權所有 ＆ by 高英傑 ,2023</p>
+   </div><!--close footer-->	
+  </div><!--close main-->	
+</body>
+</html>
